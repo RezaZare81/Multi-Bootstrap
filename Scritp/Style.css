@@ -34,6 +34,24 @@
     font-family: Roboto;
 }
 
+.Title-after{
+    font-weight: 100;
+}
+
+.Title-after::after{
+    display: inline-block;
+    height: 1px;
+    margin-left: 10px;
+    content: "";
+    background-color: #ed502e;
+    width: 30%;
+}
+
+.Title-div{
+    width: 40%;
+    display: inline-block;
+}
+
 .c-item{
     height: 400px;
 }
