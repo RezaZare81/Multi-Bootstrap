@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../Assets/Fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Ralewaye;
+    src: url(../Assets/Fonts/Raleway-VariableFont_wght.ttf);
+}
+
+
+
+.bg-danger{
+    background-color: #ed502e !important;
+}
+
+.text-dark{
+    color: #444444 !important;
+}
+
+.text-danger{
+    color: #ed502e !important;
+}
+
+.link-danger{
+    color: #ed502e !important;
+}
+
+.header-item a:hover{
+    color: #ed502e;
+}
+
+.header-style{
+    font-family: Roboto;
+}
