@@ -66,3 +66,7 @@
     background-position: center;
     filter: brightness(0.3);
 }
+
+.bu:hover{
+    background-color: #f1836a !important;
+}
