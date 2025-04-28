@@ -33,3 +33,18 @@
 .header-style{
     font-family: Roboto;
 }
+
+.c-item{
+    height: 400px;
+}
+
+.c-item button:hover{
+    color:#a93a21;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    filter: brightness(0.3);
+}

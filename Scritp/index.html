@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/Style.css" />
     <!-- link Bootstrap -->
     <link rel="stylesheet" href="/bootstrap.min.css" />
-    <script src="../Assets/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <section>
@@ -42,13 +42,45 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <button class="border-0 txet bg-danger rounded-1 text-light">
+            <button class="border-0 txet bg-danger rounded-1 text-light btn btn-primary">
               Get Started
             </button>
           </div>
         </div>
       </nav>
     </section>
-
+  <section>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="/hero-carousel-1.jpg" class="d-block w-100 c-img " alt="...">
+            <div class="carousel-caption top-0 mt-4 ">
+                <h5 class="text-uppercase mt-5 fs-2">Welcome to Multi</h5>
+                <p class="mt-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. A nam repudiandae, eligendi, nesciunt et porro quia quam magnam, nulla obcaecati nemo. Nisi, aliquid totam! Asperiores fugiat quia praesentium nesciunt nisi.</p>
+                <button class="bg-danger btn px-4 py-1 fs-8 align-items-center mt-2 text-light">Get Started</button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="/hero-carousel-2.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+          <div class="carousel-item c-item">
+            <img src="/hero-carousel-3.jpg" class="d-block w-100 c-img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
   </body>
 </html>
