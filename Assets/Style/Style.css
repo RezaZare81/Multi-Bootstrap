@@ -70,3 +70,39 @@
 .bu:hover{
     background-color: #f1836a !important;
 }
+
+.icon{
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    box-shadow: -8px -8px 0px #ed512e43;
+    align-items: center;
+    justify-content: center;
+}
+.flash{
+    height: 30vh;
+    width: 100%;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.flash-cards{
+    height:  100%;
+    transition: 0.3s;
+}
+.flash-cards:hover {
+    background-color: #ed502e !important;
+    color: aliceblue !important;
+}
+
+.flash-cards:hover .icon{
+    background-color: aliceblue !important;
+    box-shadow: -8px -8px 0px rgba(240, 248, 255, 0.367);
+
+}
+
+.flash-cards:hover i{
+color: #ed502e !important;}
+
+
