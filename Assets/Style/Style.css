@@ -1,11 +1,11 @@
 @font-face {
     font-family: Roboto;
-    src: url(../Assets/Fonts/Roboto-VariableFont_wdth\,wght.ttf);
+    src: url(../Fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
 
 @font-face {
     font-family: Ralewaye;
-    src: url(../Assets/Fonts/Raleway-VariableFont_wght.ttf);
+    src: url(../Fonts/Raleway-VariableFont_wght.ttf);
 }
 
 
@@ -34,6 +34,10 @@
     font-family: Roboto;
 }
 
+.text{
+    font-family: Roboto;
+}
+
 .Title-after{
     font-weight: 100;
 }
@@ -50,6 +54,8 @@
 .Title-div{
     width: 40%;
     display: inline-block;
+    font-family: Ralewaye;
+    font-weight: 600;
 }
 
 .c-item{
@@ -89,6 +95,7 @@
 
 .flash-cards{
     height:  100%;
+    font-family: Roboto;
     transition: 0.3s;
 }
 .flash-cards:hover {
@@ -105,4 +112,6 @@
 .flash-cards:hover i{
 color: #ed502e !important;}
 
-
+.row{
+    justify-content: center !important;
+}
