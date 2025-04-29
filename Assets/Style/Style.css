@@ -17,6 +17,9 @@
 .text-dark{
     color: #444444 !important;
 }
+.nav-item{
+    padding: 10px;
+}
 
 .text-danger{
     color: #ed502e !important;
@@ -28,6 +31,10 @@
 
 .header-item a:hover{
     color: #ed502e;
+}
+
+.header-item{
+    font-family: Ralewaye;
 }
 
 .header-style{
